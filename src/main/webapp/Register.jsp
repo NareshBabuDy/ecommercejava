@@ -1,0 +1,67 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <br />
+    <br />
+    <br />
+    <div class="container  col-4 mt-5 border rounded  ">
+      <form method="post" action="register">
+        <h3 class="text-center mb-4 mt-3 text-decoration-underline">Login</h3>
+
+        <!-- Email input -->
+        <div class="form-outline mt-5 mb-3">
+            <label class="form-label" for="form2Example1">Email</label>
+          <input type="text" id="Email" class="form-control border-0 border-bottom w-75 ms-5 " name="email" />
+
+        </div>
+
+        <!-- Password input -->
+        <div class="form-outline  mt-5  mb-4">
+            <label class="form-label" for="form2Example2">Password</label>
+          <input type="text" id="Password" class="form-control border-0 border-bottom w-75 ms-5 "  name="password"/>
+
+        </div>
+        <div>
+
+
+
+
+
+<!-- Submit button -->
+        <div class="w-100 d-flex justify-content-center  "btn>
+
+            <input type="submit" value="Register" class="btn btn-primary btn-block mb-4 w-100 px-5  mt-3">
+
+          <br />
+    <br />
+    <br />
+        </div>
+        <div >
+            <p id ="text" class="text-danger"></p>
+        </div>
+    </form>
+
+    </div>
+
+  </body>
+</html>
